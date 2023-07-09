@@ -3,5 +3,11 @@
 <artifactId>org.springframework.mysql-connector-java</artifactId>
 <version>5.1.6</version>
 </dependency>
+public String preLogin()
+	{
+   
+		System.out.println("open login page");
+		return "login";
+	}
 
 //pom.xmlfile
